@@ -8,6 +8,9 @@ class Cell{
     isMarked(){
         return this.mark!=="z"
     }
+    markCell(mark){
+    this.mark=mark;
+    }
 
 }
 module.exports=Cell
